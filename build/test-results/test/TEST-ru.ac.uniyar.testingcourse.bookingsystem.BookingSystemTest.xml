@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-02-17T18:19:35" hostname="DESKTOP-5F98A67" time="0.132">
+  <properties/>
+  <testcase name="impossibleToUnbookIntervalBeyondBoundaries" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.102"/>
+  <testcase name="possibleToBookOneInterval" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.008"/>
+  <testcase name="impossibleToBookIntervalEarlierThan8am" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="possibleToUnbookPreviouslyBookedIntervalPartially" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.0"/>
+  <testcase name="possibleToBookTwoNonCrossingInvervals(10, 12, 14, 17, [10, 11, 14, 15, 16]) [0]" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="possibleToBookTwoNonCrossingInvervals(10, 12, 12, 14, [10, 11, 12, 13]) [1]" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="impossibleToUnbookNotPreviouslyBookedInterval" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="impossibleToBookIntervalLaterThan8pm" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="impossibleToBookCrossingIntervals" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.0"/>
+  <testcase name="impossibleToUnbookIntervalBookedByAnotherUser" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="impossibleToUnbookIntervalContainingBookedAndUnbookedSubintervals" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.002"/>
+  <testcase name="bookedHoursListShouldBeEmptyAfterCreation" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.001"/>
+  <testcase name="possibleToUnbookPreviouslyBookedInterval" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.0"/>
+  <testcase name="impossibleToBookIntervalBeyondBoundaries(4, 7) [0]" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.003"/>
+  <testcase name="impossibleToBookIntervalBeyondBoundaries(20, 22) [1]" classname="ru.ac.uniyar.testingcourse.bookingsystem.BookingSystemTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
